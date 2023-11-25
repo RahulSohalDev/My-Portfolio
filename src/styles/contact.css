@@ -1,0 +1,46 @@
+.contact {
+  width: 80%;
+  margin: 4rem auto;
+}
+.contact-text h3 {
+  font-family: "Poppins", sans-serif;
+  color: #147efb;
+  margin-bottom: 5px;
+}
+.contact-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.location-mail {
+  display: flex;
+  margin: 5rem 0;
+}
+.location {
+  display: flex;
+  margin-right: 2rem;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.location p {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.location p:hover {
+  color: #147efb;
+}
+.mail {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail p {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.mail p:hover {
+  color: #147efb;
+}
+.location-mail img {
+  width: 4rem;
+}
