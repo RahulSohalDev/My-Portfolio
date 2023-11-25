@@ -1,0 +1,54 @@
+.container{
+    /* width: 107rem; */
+   
+    justify-content: center;
+    padding: 4rem 8rem;
+    background-color: #f9f9f9;
+}
+.contant{
+    display: flex;
+}
+.hero-main{
+    display: flex;
+}
+.hero-img img{
+    width: 400px;
+    border-radius: 50%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #2d2e32;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+h1> img{
+    width: 70px;
+    margin: 0rem 0.9rem;
+}
+p{
+    color: #555;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6;
+    padding-right: 0rem 5rem;
+}
+a img{
+    cursor: pointer;
+    margin: 2rem 0;
+}
+a{
+    margin-right:  1rem;
+}
+
+.skills{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+}
+.f{
+    margin: 0px 10px;
+}

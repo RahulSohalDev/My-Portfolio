@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2d2e32;
+    color: white;
+    padding: 3rem 8rem;
+}
+.left{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+img{
+    width: 1.9rem;
+    cursor: pointer;
+    margin: 0 0.9rem;
+}
