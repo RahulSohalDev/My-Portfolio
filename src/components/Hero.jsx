@@ -1,9 +1,7 @@
 import React from "react";
 import Linkdin from "../assets/social/linkedin.png";
-// import Github from "../assets/social/github.png";
 import Github1 from "../assets/social/github (1).png";
-// import Img2 from "../assets/hero-img/IMG_6766.jpg"
-import Img2 from "../assets/hero-img/IMG_3123.jpg";
+import Img2 from "../assets/hero-img/IMG_20230529_233149_941.jpg";
 import Hii from "../assets/hero-img/waving-hand.png";
 
 // skills-images
