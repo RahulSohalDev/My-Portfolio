@@ -7,11 +7,11 @@ function Footer() {
     <footer>
       <div className="left">Copyright © 2023. All rights are reserved</div>
       <div className="right">
-        <a href="https://github.com/RahulSohalDev">
+        <a href="https://github.com/RahulSohalDev" target="_blank">
           <img src={Linkdin} alt="Linkdin" />
         </a>
 
-        <a href="https://github.com/RahulSohalDev">
+        <a href="https://github.com/RahulSohalDev" target="_blank">
           <img src={Github} alt="Github" />
         </a>
       </div>

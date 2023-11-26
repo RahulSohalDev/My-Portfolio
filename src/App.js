@@ -14,6 +14,7 @@ import "./styles/navbar.css"
 import "./styles/contact.css"
 import "./styles/footer.css"
 import "./styles/hero.css"
+import "./styles/projects.css"
 import "./styles/about.css"
 
 function App() {
@@ -21,12 +22,17 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <Hero/>
         <Routes>
-          <Route path="/hero" element={<Hero/>}/>
-          <Route path="/about" element={<About/>}/>
+          {/* <Route path="/" element={<Hero/>}/> */}
+          
+          {/* <Route path="/about" element={<About/>}/>
           <Route path="/projects" element={<Projects/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/contact" element={<Contact/>}/> */}
         </Routes>
+        <About/>
+        <Projects/>
+        <Contact/>
         <Footer />
       </Router>
     </>

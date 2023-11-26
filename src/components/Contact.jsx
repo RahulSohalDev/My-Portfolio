@@ -18,7 +18,7 @@ function Contact() {
           </div>
         </div>
         <div className="mail">
-        <img src={Gmail} alt="" />
+          <img src={Gmail} alt="" />
           <div className="mail-link">
             <h4>Mail</h4>
             <p>dhiman7571@gmail.com</p>
