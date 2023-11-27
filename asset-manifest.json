@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.cafc6aa6.css",
+    "main.js": "/My-Portfolio/static/js/main.e7e346a6.js",
+    "static/js/787.3ba98c37.chunk.js": "/My-Portfolio/static/js/787.3ba98c37.chunk.js",
+    "static/media/pexels-rodrigo-santos-3888151.jpg": "/My-Portfolio/static/media/pexels-rodrigo-santos-3888151.ae486a98a2e54c51bbd3.jpg",
+    "static/media/IMG_20230529_233149_941.jpg": "/My-Portfolio/static/media/IMG_20230529_233149_941.36e7137978000d0a2f2c.jpg",
+    "static/media/jfrcfmcisi1xiwm4rl1s.jpg": "/My-Portfolio/static/media/jfrcfmcisi1xiwm4rl1s.543403b88702af48b799.jpg",
+    "static/media/sass.png": "/My-Portfolio/static/media/sass.91714f748188b46f4e33.png",
+    "static/media/atom.png": "/My-Portfolio/static/media/atom.17e5cb984343d1346ebd.png",
+    "static/media/github (1).png": "/My-Portfolio/static/media/github (1).9e094d235b4caa7c31fc.png",
+    "static/media/bg1keixvsprk6ev1q8f2.jpg": "/My-Portfolio/static/media/bg1keixvsprk6ev1q8f2.73ad1e6ca547ee2d0b02.jpg",
+    "static/media/waving-hand.png": "/My-Portfolio/static/media/waving-hand.64a5ccf61929fbf15303.png",
+    "static/media/github.png": "/My-Portfolio/static/media/github.553c66159c5672f25df6.png",
+    "static/media/map_1865269.png": "/My-Portfolio/static/media/map_1865269.82056140ce3605dfbf34.png",
+    "static/media/html-5.png": "/My-Portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/bootstrap.png": "/My-Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/gmail_732200.png": "/My-Portfolio/static/media/gmail_732200.a2f2146f929409405da0.png",
+    "static/media/css-3.png": "/My-Portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/js.png": "/My-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.cafc6aa6.css.map": "/My-Portfolio/static/css/main.cafc6aa6.css.map",
+    "main.e7e346a6.js.map": "/My-Portfolio/static/js/main.e7e346a6.js.map",
+    "787.3ba98c37.chunk.js.map": "/My-Portfolio/static/js/787.3ba98c37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cafc6aa6.css",
+    "static/js/main.e7e346a6.js"
+  ]
+}
