@@ -1,14 +1,13 @@
-.project-container{
-    background-color: #f9f9f9;
-    padding-bottom: 2rem;
+.project-container {
+  background-color: #f9f9f9;
+  padding-bottom: 2rem;
 }
 .projects {
   margin: 3rem 8rem;
   font-family: "Poppins", sans-serif;
-  
 }
-.port{
-    padding-top: 2rem;
+.port {
+  padding-top: 2rem;
 }
 .projects h3 {
   color: #147efb;
@@ -20,103 +19,173 @@
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
-.rules h3{
-    margin-top: 10px;
+.rules h3 {
+  margin-top: 10px;
 }
-.game{
-    display: flex;
-    background-color: white;
-    flex-direction: row-reverse;
-    margin: 4rem 0;
-    padding: 2rem 1rem;
-    border-radius: 1rem;
-
+.game {
+  display: flex;
+  background-color: white;
+  flex-direction: row-reverse;
+  margin: 4rem 0;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
 }
-.game img{
-    width: 30rem;
-    border-radius: 1rem;
-    cursor: none;
+.game img {
+  width: 30rem;
+  border-radius: 1rem;
+  /* cursor: none; */
 }
-.game-text p{
-    font-size: 1.1rem;
+.game-text p {
+  font-size: 1.1rem;
 }
 
 /* country */
-.country{
-    display: flex;
-    background-color: white;
-  
-    margin: 4rem 0;
-    padding: 2rem 1rem;
-    border-radius: 1rem;
+.country {
+  display: flex;
+  background-color: white;
 
+  margin: 4rem 0;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
 }
-.country img{
-    width: 30rem;
-    cursor: none;
-    border-radius: 1rem;
+.country img {
+  width: 30rem;
+  /* cursor: none; */
+  border-radius: 1rem;
 }
-.country-text p{
-    font-size: 1.1rem;
+.country-text p {
+  font-size: 1.1rem;
 }
-.country-rules h3{
-    margin-top: 10px;
+.country-text{
+  margin-left: 1.5rem;
 }
-button{
-    border: none;
-    background-color: white;
-    box-shadow: 0px 0px 5px 0px black;
-    padding: 0.7rem 0.9rem;
-    margin: 0 1rem;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+.country-rules h3 {
+  margin-top: 10px;
 }
-.country-tech{
-    display: flex;
-    align-items: center;
-    margin: 2rem 0;
+button {
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px black;
+  padding: 0.7rem 0.9rem;
+  margin: 1rem 1rem;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
-.country-tech p{
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    color: black;
+.country-tech {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
 }
-.live{
-    display: flex;
+.country-tech p {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: black;
 }
-.live img{
-    width: 1.5rem;
-   
+.live {
+  display: flex;
 }
-.live span{
-    margin-left: 0.6rem;
+.live img {
+  width: 1.5rem;
 }
-.live a{
-    display: flex;
-    align-items: center;
+.live span {
+  margin-left: 0.6rem;
 }
-.live p:hover{
-    color: #147efb;
+.live a {
+  display: flex;
+  align-items: center;
 }
-.live p{
-    display: flex;
-    align-items: center;
-font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+.live p:hover {
+  color: #147efb;
 }
-.rap{
-    display: flex;
-    margin-top: 2rem;
+.live p {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
-.game-link{
-    margin-left: 2rem;
-    display: flex;
-    /* align-items: baseline; */
+.rap {
+  display: flex;
+  margin-top: 1rem;
+}
+.game-link {
+  margin-left: 2rem;
+  display: flex;
+  /* align-items: baseline; */
 }
 /* .rules{
     margin-top: 1.5rem;
 } */
-.rap hr{
-    margin-left: 3rem;
+.rap hr {
+  margin-left: 3rem;
+}
+span img:hover {
+  color: #147efb;
+}
+
+/* responsive */
+@media only screen and (max-width:1300px){
+  .projects{
+    margin: 3rem 4rem;
+  }
+}
+@media only screen and (max-width:750px){
+  .game{
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+  .game-img img{
+    width: 100%;
+  }
+  .projects {
+    margin: 0rem 2rem;
+}
+  .country-img img{
+    width: 100%;
+  }
+  .game-text{
+    margin-top: 2rem;
+  }
+  .rules{
+    display: flex;
+    flex-direction: column;
+  }
+  .rap{
+    display: block;
+  }
+  .rap hr{
+    display: none;
+  }
+  .game-link{
+    display: flex;
+    justify-content: center;
+  }
+  .country{
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+
+  .btns-use{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem 0;
+    margin-top: 2rem;
+  }
+  .country-text{
+    margin-top: 2rem;
+  }
+  .country-tech {
+    flex-direction: column;
+    margin: 2rem 0;
+    align-items: baseline;
+  }
+  .live{
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  button{
+    margin: 0;
+  }
 }

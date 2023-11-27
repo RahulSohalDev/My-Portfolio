@@ -43,4 +43,26 @@
 }
 .location-mail img {
   width: 4rem;
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 750px) {
+  .location-mail {
+    flex-direction: column;
+    margin: 3rem 0;
+  }
+  .location {
+    margin-bottom: 2.5rem;
+  }
+  .mail {
+    justify-content: flex-start;
+  }
+  .location-link{
+    margin-left: 1rem;
+  }
+  .mail-link{
+    margin-left: 1rem;
+  }
+  .location-mail img {
+    width: 3rem;
+}
 }

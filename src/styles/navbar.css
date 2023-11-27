@@ -38,3 +38,55 @@ a{
 a:hover{
     color: blue;
 }
+.nav-btn{
+    cursor: pointer;
+    background: transparent;
+    padding: 5px;
+    border: none;
+    outline: none;
+    display: none;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+@media only screen and (max-width:1280px){
+    .nav-btn{
+        /* visibility: visible; */
+        display: flex;
+        opacity: 1;
+    }
+    ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: white;
+        flex-direction: column;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+    .responsive-nav{
+        transform: none;
+    }
+    .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:750px){
+    header{
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+    }
+}

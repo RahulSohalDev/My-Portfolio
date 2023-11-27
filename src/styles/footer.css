@@ -12,8 +12,15 @@ footer{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
-img{
+footer img{
     width: 1.9rem;
     cursor: pointer;
     margin: 0 0.9rem;
+}
+@media only screen and (max-width:750px){
+    footer{
+        padding: 3rem 2rem;
+        flex-direction: column;
+        text-align: center;
+    }
 }

@@ -32,28 +32,28 @@ function Projects() {
               </div>
               <hr />
               <div className="game-link live">
-              <a
-                target="_blank"
-                href="https://github.com/RahulSohalDev/Rock-Paper-Scissor"
-              >
-                <p>
-                  Code{" "}
-                  <span>
-                    <img src={Code} alt="Github code" />
-                  </span>
-                </p>
-              </a>
-              <a
-                target="_blank"
-                href="https://rahulsohaldev.github.io/Rock-Paper-Scissor/"
-              >
-                <p>
-                  Live Demo{" "}
-                  <span>
-                    <img src={Live} alt="Github code" />
-                  </span>
-                </p>
-              </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/RahulSohalDev/Rock-Paper-Scissor"
+                >
+                  <p>
+                    Code{" "}
+                    <span>
+                      <img src={Code} alt="Github code" />
+                    </span>
+                  </p>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://rahulsohaldev.github.io/Rock-Paper-Scissor/"
+                >
+                  <p>
+                    Live Demo{" "}
+                    <span>
+                      <img src={Live} alt="Github code" />
+                    </span>
+                  </p>
+                </a>
               </div>
             </div>
           </div>
@@ -71,10 +71,12 @@ function Projects() {
             </p>
             <div className="country-tech">
               <p>Tech Stack-</p>
-              <button>HTML5</button>
-              <button>CSS3</button>
-              <button>JAVASCRIPT</button>
-              <button>API</button>
+              <div className="btns-use">
+                <button>HTML5</button>
+                <button>CSS3</button>
+                <button>JAVASCRIPT</button>
+                <button>API</button>
+              </div>
             </div>
             <div className="live">
               <a

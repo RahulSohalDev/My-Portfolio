@@ -1,13 +1,23 @@
-import React from 'react'
-import {  Link } from "react-router-dom";
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
+  const navRaf = useRef();
+  const showNavBar = () => {
+    navRaf.current.classList.toggle("responsive-nav");
+  };
+
   return (
-   <>
-   <nav>
-    <h3>sohal.dev</h3>
-    
-        <ul>
+    <>
+    <header className="responsive-nav">
+
+
+
+      <nav >
+        <h3>sohal.dev</h3>
+
+        <ul ref={navRaf}>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -20,11 +30,17 @@ function Navbar() {
           <li>
             <Link to="/">Contact</Link>
           </li>
+          <button className="nav-btn nav-close-btn" onClick={showNavBar}>
+            <FaTimes />
+          </button>
         </ul>
-      
-   </nav>
-   </>
-  )
+        <button className="nav-btn" onClick={showNavBar}>
+          <FaBars />
+        </button>
+      </nav>
+    </header>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
