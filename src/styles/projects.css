@@ -75,7 +75,7 @@ button {
 .country-tech {
   display: flex;
   align-items: center;
-  margin: 2rem 0;
+ margin-top: 2rem;
 }
 .country-tech p {
   font-weight: 600;
@@ -187,5 +187,6 @@ span img:hover {
 
   button{
     margin: 0;
+    margin-right: 1rem;
   }
 }
