@@ -10,35 +10,31 @@ function Navbar() {
 
   return (
     <>
-    <header className="responsive-nav">
-
-
-
-      <nav >
-        <h3>sohal.dev</h3>
-
-        <ul ref={navRaf}>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/">About</Link>
-          </li>
-          <li>
-            <Link to="/">Projects</Link>
-          </li>
-          <li>
-            <Link to="/">Contact</Link>
-          </li>
-          <button className="nav-btn nav-close-btn" onClick={showNavBar}>
-            <FaTimes />
+      <header className="responsive-nav">
+        <nav>
+          <h3>sohal.dev</h3>
+          <ul ref={navRaf}>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/">About</Link>
+            </li>
+            <li>
+              <Link to="/">Projects</Link>
+            </li>
+            <li>
+              <Link to="/">Contact</Link>
+            </li>
+            <button className="nav-btn nav-close-btn" onClick={showNavBar}>
+              <FaTimes />
+            </button>
+          </ul>
+          <button className="nav-btn" onClick={showNavBar}>
+            <FaBars />
           </button>
-        </ul>
-        <button className="nav-btn" onClick={showNavBar}>
-          <FaBars />
-        </button>
-      </nav>
-    </header>
+        </nav>
+      </header>
     </>
   );
 }
