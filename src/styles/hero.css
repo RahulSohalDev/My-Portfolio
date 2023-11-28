@@ -84,7 +84,10 @@ margin: 0 0.9rem;
     padding: 25px 20px 25px 20px;
   }
   .hero-img img {
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
+}
+.container {
+  padding: 1.5rem 4rem;
 }
 }
