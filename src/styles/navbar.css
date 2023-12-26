@@ -1,4 +1,9 @@
 
+header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
 nav{
     display: flex;
     justify-content: space-between;
