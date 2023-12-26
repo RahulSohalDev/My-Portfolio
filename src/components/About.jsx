@@ -3,7 +3,7 @@ import Laptop from "../assets/about/pexels-rodrigo-santos-3888151.jpg";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-img">
         <img src={Laptop} alt="Laptop img" />
       </div>

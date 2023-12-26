@@ -6,7 +6,7 @@ import Live from "../assets/social/icons8-link-24.png";
 
 function Projects() {
   return (
-    <div className="project-container">
+    <div className="project-container" id="projects">
       <div className="projects">
         <div className="project">
           <h3 className="port">PORTFOLIO</h3>

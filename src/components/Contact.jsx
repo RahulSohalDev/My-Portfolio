@@ -4,7 +4,7 @@ import Gmail from "../assets/contact//gmail_732200.png";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-text">
         <h3>CONTACT</h3>
         <h2>Don't be shy! Hit me up!</h2>

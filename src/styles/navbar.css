@@ -20,6 +20,9 @@ nav{
     padding: 25px 40px 25px 50px;
    
 }
+li{
+    cursor: pointer;
+}
 nav> h3{
     color: #2d2e32;
     cursor: pointer;

@@ -14,7 +14,7 @@ import Sass from "../assets/skills/sass.png";
 
 function Hero() {
   return (
-    <div className="container">
+    <div className="container" id="hero">
       <div className="content">
         <div className="hero-main">
           <div className="hero-text">
