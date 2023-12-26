@@ -23,3 +23,6 @@
   box-sizing: border-box;
   max-width: 1450px;
 }
+html{
+  margin: auto;
+}
